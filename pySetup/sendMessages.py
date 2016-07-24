@@ -5,7 +5,7 @@ def printParent(text):
         'text': text,
         'type': 'console.log'
     }
-    print json.dumps(messageObj)
+    print(json.dumps(messageObj))
 
 
 def messageParent(messageText, type):
@@ -13,7 +13,7 @@ def messageParent(messageText, type):
         'text': messageText,
         'type': type
     }
-    print json.dumps(messageObj)
+    print(json.dumps(messageObj))
 
 
 def obviousPrint(label, obj):

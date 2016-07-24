@@ -3,7 +3,7 @@ import sys
 import random
 from os import path
 import ntpath
-import cPickle as pickle
+import pickle as pickle
 
 import numpy as np
 from scipy.sparse import csr_matrix, csc_matrix
@@ -117,7 +117,8 @@ else:
         if writeToFile:
             with open(validationIndicesFile, 'w') as writeFile:
                 # now save that file as a .pkl next to where our test data sits. 
-                pickle.dump(validationIndices, writeFile)
+                 
+                pickle.dump(str(validationIndices), writeFile)
 
 
 # continued callout to the person originally responsible for this function:

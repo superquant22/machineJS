@@ -8,10 +8,10 @@
       }
     }
 
-    // if( global.argv.validationRound ) {
-    //   console.log('global.argv before processArgs in machineJS validationRound');
-    //   console.log(global.argv);
-    // }
+     //if( global.argv.validationRound ) {
+       //console.log('global.argv before processArgs in machineJS validationRound');
+       //console.log(global.argv);
+     //}
 
     if( argv.validationRound !== true ) {
       processArgs();
